@@ -1,0 +1,248 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col3{
+  width: 33.333333333333333%;
+}
+
+* { box-sizing: border-box; }
+
+html, body{
+  height: 100%;
+}
+
+.header{
+  background-color: #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.header_logo{
+  float:left;
+}
+
+.header_menu{
+  float:right;
+  margin:0;
+  padding:0;
+}
+
+.logo{
+  width: 0.8em;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+.content_song{
+  vertical-align: ;
+}
+
+.logo:hover{
+  opacity: 0.6;
+}
+
+.header_menu_item{
+  display: inline-block;
+}
+
+.header_menu_item a{
+  display: block;
+  padding: 30px;
+  font-size: 1.6em;
+}
+
+.header_icon-bar span{
+  background-color: #fff;
+  display: block;
+  height: 3px;
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+.header_icon-bar{
+  display: block;
+  float: right;
+  padding: 30px;
+  display: none;
+}
+
+.cover{
+  height: 80%;
+  background-image: url("PausaCaffè_Vicini_MidQual.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.cover_caption{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.cover_caption_copy{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.space{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.listen{
+  font-size: 2em;
+  font-family: "Avenir Next Ultra Light";
+  text-align: center;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*----------------------------
+tablet
+----------------------------*/
+@media only screen and (max-width: 1250px) {
+  .header_icon-bar{
+    display: block;
+  }
+
+  .header_menu_item{
+    display: block;
+    text-align: center;
+  }
+
+  .header_menu{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+  }
+}
+
+/*----------------------------
+smartphone
+----------------------------*/
+@media only screen and (max-width: 786px) {
+  .header_icon-bar{
+    display: block;
+  }
+
+[class*="col-"] {
+    float:left; padding:1vw;
+  }
+
+  .header_menu_item{
+    display: block;
+    text-align: center;
+  }
+
+  .header_menu{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+  }
+}
+
+.isOpen{
+  height: 300px;
+  overflow: auto;
+}
+
+.animate{
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    font-family: "DIN Condensed", sans-serif;
+    color: white;
+}
+
+#imgHome{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  float:left;
+  clear: both;
+}
+
+#stickman{
+  width: 80%;
+}
+
+#ritornello{
+  float: right;
+  text-align: center;
+  font-size: 5em;
+  font-style: italic;
+  font-family: serif;
+  vertical-align: middle;
+  line-height: 0.3;
+}
+
+#tazza{
+    width: 40%;
+    height: 40%;
+    max-width: 200px;
+}
+
+#slideshow{
+  border: 1px solid red;
+}
+
+#video{
+  margin-top: 10%;
+  width:100%;
+  height:100%;
+/*  background-color: red;*/
+
+  clear: both;
+}
+
+a{
+    color: #fff;
+    transition-property: color;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+a:hover{
+  color: grey;
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+  border-top: 2px solid goldenrod;
+}

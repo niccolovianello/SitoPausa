@@ -2,70 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="Stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css">
+    <link href="StylesheetHP.css" rel="stylesheet" type="text/css">
     <title>Home Page</title>
 </head>
 <body>
 
-  <header>
-    <div class="">
-      <nav class="row">
-        <main>
-          <div class="col-1 navitem"></div>
-          <div class="col-1 navitem"></div>
-          <div class="col-1 navitem"></div>
-          <div class="col-1 navitem">
-              <img id="tazza" src="Tazzina.png" alt="tazzina" usemap="#tazzina">
-          </div>
-          <div class="col-1 navitem"></div>
-          <div class="col-1 navitem"></div>
-          <div class="col-1 navitem"><a href="Live.html">LIVE</a></div>
-          <div class="col-1 navitem"><a href="Music.html">DISCOGRAFIA</a></div>
-          <div id="links" class="col-3 navitem">
-              <img id="logoSpotify" src="spotyLogo.png" alt="logo_Spotify" class="social" usemap="#spotify">
-              <img id="logoApple" src="appleLogo.png" alt="logo_Apple" class="social" usemap="#apple">
-              <img id="logoYouTube" src="ytLogo.png" alt="logo_YouTube" class="social" usemap="#youtube">
-              <img id="logoInstagram" src="igLogo.png" alt="logo_Instagram" class="social" usemap="#instagram">
-              <img id="logoFacebook" src="fbLogo.png" alt="logo_Facebook" class="social" usemap="#facebook">
+  <header class="header clearfix">
+    <a href="PaginaIniziale.html" class="header_logo">
+      <img id="tazza" src="Tazzina.png" alt="tazzina" class="logo">
+    </a>
+    <a href="" class="header_icon-bar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <ul class="header_menu animate">
+      <li class="header_menu_item">
+        <a href="Discografia.html">DISCOGRAFIA</a>
+      </li>
+      <li class="header_menu_item">
+        <a href="Live.html">LIVE</a>
+      </li>
+      <li class="header_menu_item">
+        <a href="Merch.html">MERCH</a>
+      </li>
+      <li class="header_menu_item">
+        <div class="header_menu_item">
+          <a href="https://open.spotify.com/artist/5BXqtdLtl6zmzhfe70QK0S?si=WqUdqd1_TtiHH-tkF5JObQ"><img src="spotyLogo.png" alt="spotify_logo" class="logo"></img></a>
+        </div>
+        <div class="header_menu_item">
+          <a href="https://itunes.apple.com/it/artist/pausa-caffè/1282007021"><img src="appleLogo.png" alt="apple_logo" class="logo"></img></a>
+        </div>
+        <div class="header_menu_item">
+          <a href="https://www.youtube.com/channel/UCDw_c12EW8DV8mUTm8EYzAw"><img src="ytLogo.png" alt="youtube_logo" class="logo"></img></a>
+        </div>
+        <div class="header_menu_item">
+          <a href="https://www.instagram.com/pausacaffelive/"><img src="igLogo.png" alt="instagram_logo" class="logo"></img></a>
+        </div>
+        <div class="header_menu_item">
+          <a href="https://www.facebook.com/pausacaffelive/"><img src="fbLogo.png" alt="facebook_logo" class="logo"></img></a>
+        </div>
+      </li>
+    </ul>
 
-              <map name="spotify">
-                  <area shape="rect" coords="0,0,100,100" href="https://open.spotify.com/artist/5BXqtdLtl6zmzhfe70QK0S?si=f8sleVD7QH-uKuzYEmxoPA" alt="Profilo facebook"/>
-              </map>
-              <map name="apple">
-                  <area shape="rect" coords="0,0,100,100" href="https://itunes.apple.com/it/artist/pausa-caffè/1282007021" alt="Profilo facebook"/>
-              </map>
-              <map name="youtube">
-                  <area shape="rect" coords="0,0,100,100" href="https://www.youtube.com/channel/UCDw_c12EW8DV8mUTm8EYzAw" alt="Profilo facebook"/>
-              </map>
-              <map name="instagram">
-                  <area shape="rect" coords="0,0,100,100" href="https://www.instagram.com/pausacaffelive" alt="Profilo facebook"/>
-              </map>
-              <map name="facebook">
-                  <area shape="rect" coords="0,0,100,100" href="https://www.facebook.com/pausacaffelive" alt="Profilo facebook"/>
-              </map>
-              <map name="tazzina">
-                  <area shape="rect" coords="0,0,100,100" href="PaginaIniziale.html" alt="PaginaIniziale"/>
-              </map>
-          </div>
-          <div class="col-1 navitem"></div>
-        </main>
-
-  
-
-
-      </nav>
-    </div>
   </header>
 
+  <section class="cover">
+  </section>
+
+  <section class="space">
+  </section>
+
+  <section id="spotify">
+    <div class="col3">
+    </div>
+    <div class="content_song clearfix cover_caption_copy col3">
+      <iframe src="https://open.spotify.com/embed/track/4bZf0URHIPBqNbnaKGs952" width="800" height="100" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class="col3">
+    </div>
+  </section>
+
+  <section class="space">
+  </section>
+
+  <section>
+    <div class="col-6">
+      <img id="stickman" src="StickmanBianco.png" alt="Stickman">
+    </div>
+    <div id="ritornello" class="col-6">
+      <p>"Che investirò le renne</p>
+        <p>per venirti a prendere</p>
+        <p>mi schianterò contro</p>
+        <p>la chiesa più grande</p>
+        <p>e cercami sull'internet</p>
+        <p>tra i point of interest</p>
+        <p>sarò l'ubriaco</p>
+        <p>che ti ha amato per sempre"</p>
+    </div>
+  </section>
+
+<section class="space">
+</section>
 
 
 
-    <main>
-      <div id="video">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZLwQg52Kiag" frameborder="0" allowfullscreen ></iframe>
-      </div>
-    </main>
+  <section id="videoclip">
+    <div class="col3">
+    </div>
+    <div id="song" class="content_song clearfix cover_caption_copy col3">
+      <iframe width="1920" height="1080" src="https://www.youtube.com/embed/ZLwQg52Kiag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col3">
+    </div>
+  </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".header_icon-bar").click(function(e){
+      $(".header_menu").toggleClass('isOpen')
+      e.preventDefault();
+    });
+  });
+</script>
 
 </body>
 </html>
