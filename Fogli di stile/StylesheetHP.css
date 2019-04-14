@@ -97,7 +97,7 @@ html, body{
 
 .cover{
   height: 100%;
-  background-image: url("PausaCaffè_Vicini_MidQual.jpg");
+  background-image: url("../Immagini/PausaCaffè_Vicini_MidQual.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -155,7 +155,7 @@ tablet/smartphone
   }
 
   .cover{
-    background-image: url("StickmanBianco.png");
+    background-image: url("../Immagini/StickmanBianco.png");
     background-position: center right;
     background-size: cover;
     background-repeat: no-repeat;
