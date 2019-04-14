@@ -15,7 +15,7 @@ body{
     position: fixed;
 }
 
-#enter{
+#enter {
     color: #ffffff;
     position: fixed;
     top: 65%;
@@ -23,17 +23,16 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: "DIN Condensed", sans-serif;
-    font-size: 2.4em;
-    background-color: transparent;
+    font-size: 2em;
     /*background: linear-gradient(90deg, goldenrod, hotpink, blue, lightblue, goldenrod);*/
     transition-property: background-color;
-    background-size: 400%;
     transition-duration: 1s;
+    background-size: 400%;
     box-sizing: border-box;
     border-radius: 30px;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 0.5%;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #enter:hover{
