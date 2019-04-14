@@ -55,42 +55,76 @@
   <section class="space">
   </section>
 
-  <section id="spotify">
-    <div class="col-4">
-    </div>
-    <div class="content_song clearfix cover_caption_copy col-4">
-      <iframe src="https://open.spotify.com/embed/track/4bZf0URHIPBqNbnaKGs952" width="800" height="100" allowtransparency="true" allow="encrypted-media"></iframe>
-    </div>
-    <div class="col-4">
+  <section>
+    <div class="content_spotify">
+        <iframe src="https://open.spotify.com/embed/track/4bZf0URHIPBqNbnaKGs952" width="auto" height="auto" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
   </section>
 
-  <section class="space">
-  </section>
-
-  <section class="cards">
-    <div class="card">
-      
+  <section class="live">
+    <div class="content_songkick">
+      <a href="https://www.songkick.com/artists/9275809" class="songkick-widget" data-theme="dark" data-track-button="off" data-detect-style="true" data-background-color="black">#PAUSACAFFELIVE</a>
+        <script src="//widget.songkick.com/9275809/widget.js"></script>
     </div>
   </section>
 
   <section class="space">
   </section>
-
-
 
   <section id="videoclip">
   </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $(".header_icon-bar").click(function(e){
-      $(".header_menu").toggleClass('isOpen')
-      e.preventDefault();
+  <footer>
+   <div class="footer_table">
+     <table id="tabfooter">
+         <tr>
+           <td class="footer_table-sx"><small>&copy; Pausa Caffè 2019. Tutti i diritti riservati.</small></td>
+           <td class="footer_table-dx"><small><b>CONTATTI</b></small></td>
+         </tr>
+       <tr>
+         <td class="footer_table-sx">
+           <small>Vieni a trovarci sui nostri social:
+             <a href="https://www.facebook.com/pausacaffelive/">
+               <b>Facebook  </b>
+             </a>
+             <a href="https://www.instagram.com/pausacaffelive/">
+               <b>Instagram  </b>
+             </a>
+           </small>
+         </td>
+         <td class="footer_table-dx">
+           <small>Info e booking:
+             <b>info@neverlandrecords.com</b>
+           </small>
+         </td>
+       </tr>
+       <tr>
+         <td class="footer_table-sx">
+           <small>Ascolta la nostra musica:
+             <a href="https://open.spotify.com/artist/5BXqtdLtl6zmzhfe70QK0S?si=WqUdqd1_TtiHH-tkF5JObQ">
+               <b>Spotify  </b>
+             </a>
+             <a href="https://itunes.apple.com/it/artist/pausa-caffè/1282007021">
+               <b>iTunes  </b>
+             </a>
+           </small></td>
+         <td class="footer_table-dx"><small>e-mail diretta: <b>pausacaffe14@gmail.com</b></small></td>
+       </tr>
+     </table>
+
+   </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".header_icon-bar").click(function(e){
+        $(".header_menu").toggleClass('isOpen');
+        e.preventDefault();
+      });
     });
-  });
-</script>
+  </script>
 
 </body>
 </html>

@@ -1,0 +1,7 @@
+Codice incorporamento spotify
+
+    - Artista
+    <iframe src="https://open.spotify.com/embed/artist/5BXqtdLtl6zmzhfe70QK0S" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+    - "Oslo"
+    <iframe src="https://open.spotify.com/embed/track/4bZf0URHIPBqNbnaKGs952" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

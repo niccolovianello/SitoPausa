@@ -1,3 +1,7 @@
+/*----------------------------
+generale
+----------------------------*/
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -16,6 +20,51 @@
 html, body{
   height: 100%;
 }
+
+a{
+  color: #fff;
+  transition-property: color;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+a:hover{
+  color: grey;
+}
+
+.animate{
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+body{
+  margin:0;
+  padding:0;
+  background-color: black;
+  font-family: "DIN Condensed", sans-serif;
+  color: white;
+}
+
+.space{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*----------------------------
+header
+----------------------------*/
 
 .header{
   position: fixed;
@@ -42,7 +91,7 @@ html, body{
   margin:0;
   padding:0;
   position: relative;
-  z-index: 101;
+  z-index: 1000;
 }
 
 .header_menu-blockloghi{
@@ -79,6 +128,12 @@ html, body{
   font-size: 1.6em;
 }
 
+.header_icon-bar{
+  display: none;
+  float: right;
+  padding: 30px 20px;
+}
+
 .header_icon-bar span{
   background-color: #fff;
   display: block;
@@ -89,11 +144,9 @@ html, body{
   z-index: 101;
 }
 
-.header_icon-bar{
-  display: none;
-  float: right;
-  padding: 30px;
-}
+/*----------------------------
+cover
+----------------------------*/
 
 .cover{
   height: 100%;
@@ -111,29 +164,18 @@ html, body{
 .cover_caption_copy{
   display: table-cell;
   vertical-align: middle;
+  border-radius: 30px;
   text-align: center;
 }
-
-.space{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
-* html .clearfix             { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 /*----------------------------
 tablet/smartphone
 ----------------------------*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  
+  .header{
+    position: absolute;
+  }
 
   .header_icon-bar{
     display: block;
@@ -148,6 +190,63 @@ tablet/smartphone
     width: 100%;
     height: 0;
     overflow: hidden;
+    position: relative;
+    z-index: 1000;
+  }
+
+
+  .header_menu-blockloghi{
+    display: none;
+  }
+
+  .cover{
+     background-image: url("../Immagini/StickmanBianco.png");
+     background-position: center right;
+     background-size: cover;
+     background-repeat: no-repeat;
+   }
+
+  .isOpen{
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .footer_table{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 5px;
+    z-index: 101;
+    float: end;
+  }
+
+}
+
+/*---------------------------------
+smartphone piccoli (es iPhone SE)
+---------------------------------*/
+
+@media (max-width: 320px) {
+
+  .header_logo{
+    float:end;
+  }
+
+  .header_icon-bar{
+    display: block;
+  }
+
+  .header_menu_item{
+    display: block;
+    text-align: center;
+  }
+
+  .header_menu{
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1000;
   }
 
   .header_menu-blockloghi{
@@ -160,27 +259,34 @@ tablet/smartphone
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
 
-
-.isOpen{
-  height: 300px;
-  overflow: auto;
-}
-
-.animate{
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
+  .isOpen{
+    height: 150px;
+    overflow: hidden;
+  }
 
 }
 
-body{
-    margin:0;
-    padding:0;
-    background-color: black;
-    font-family: "DIN Condensed", sans-serif;
-    color: white;
+/*---------------------------------
+content
+---------------------------------*/
+
+.content_spotify{
+  position: relative;
+  max-width: 300px;
+  margin: auto;
+  padding-top: 5px;
+  float: end;
 }
+
+.content_songkick{
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 5px;
+  float: end;
+}
+
 
 #imgHome{
   margin: 0;
@@ -194,16 +300,6 @@ body{
 
 #stickman{
   width: 80%;
-}
-
-#ritornello{
-  float: right;
-  text-align: center;
-  font-size: 5em;
-  font-style: italic;
-  font-family: serif;
-  vertical-align: middle;
-  line-height: 0.3;
 }
 
 #tazza{
@@ -220,33 +316,51 @@ body{
   border: 1px solid red;
 }
 
+#tabfooter{
+  width: 100%;
+}
+
 #video{
   margin-top: 10%;
   width:100%;
   height:100%;
 /*  background-color: red;*/
-
   clear: both;
 }
 
-a{
-    color: #fff;
-    transition-property: color;
-    transition-duration: 0.5s;
-    text-decoration: none;
-}
-
-a:hover{
-  color: grey;
-}
-
 .social{
-    width: 20px;
-    height: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
+
+/*---------------------------------
+footer
+---------------------------------*/
 
 footer{
-  border-top: 2px solid goldenrod;
+  padding: 50px;
+  color: #fff;
+  width: 100%;
+  font-family: "Avenir", sans-serif;
+  background-color: #333;
+}
+
+.footer_table{
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+  padding-top: 5px;
+  z-index: 101;
+  float: end;
+}
+
+.footer_table-sx{
+  text-align: left;
+}
+
+.footer_table-dx{
+  text-align: right;
 }
