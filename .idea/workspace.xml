@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab17a9c2-4b2a-4f68-95b8-108d2ed976a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fogli di stile/Utile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fogli di stile/Bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Immagini/Elerajters1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Immagini/Live1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SitoPausa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SitoPausa.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fogli di stile/StylesheetHP.css" beforeDir="false" afterPath="$PROJECT_DIR$/Fogli di stile/StylesheetHP.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pagine/HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pagine/HomePage.html" afterDir="false" />
@@ -20,12 +23,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pagine/HomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -33,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fogli di stile/StylesheetHP.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="365" column="1" selection-start-line="365" selection-start-column="1" selection-end-line="365" selection-end-column="1" />
+            <state relative-caret-position="738">
+              <caret line="337" selection-start-line="337" selection-end-line="337" />
             </state>
           </provider>
         </entry>
@@ -44,8 +47,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,6 +57,8 @@
     <findStrings>
       <find>MUSICA</find>
       <find>Class=&quot;logo&quot;</find>
+      <find>!important</find>
+      <find>pointer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,12 +71,17 @@
         <option value="$PROJECT_DIR$/Stylesheet.css" />
         <option value="$PROJECT_DIR$/HomePage.html" />
         <option value="$PROJECT_DIR$/Fogli di stile/Utile" />
+        <option value="$PROJECT_DIR$/Pagine/Javascript.js" />
+        <option value="$PROJECT_DIR$/Javascript.js" />
         <option value="$PROJECT_DIR$/Fogli di stile/StylesheetHP.css" />
+        <option value="$PROJECT_DIR$/Bootstrap.css" />
+        <option value="$PROJECT_DIR$/Pagine/Bootstrap.css" />
+        <option value="$PROJECT_DIR$/Fogli di stile/Bootstrap.css" />
         <option value="$PROJECT_DIR$/Pagine/HomePage.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="2560" />
     <option name="height" value="1417" />
@@ -83,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,18 +109,22 @@
             </path>
             <path>
               <item name="SitoPausa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="SitoPausa" type="462c0819:PsiDirectoryNode" />
+              <item name="Immagini" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SitoPausa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SitoPausa" type="462c0819:PsiDirectoryNode" />
+              <item name="Pagine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SitoPausa" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="widget" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,9 +139,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Fogli di stile" />
       <recent name="$PROJECT_DIR$/Pagine" />
       <recent name="$PROJECT_DIR$/Immagini" />
-      <recent name="$PROJECT_DIR$/Fogli di stile" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -167,7 +184,10 @@
       <workItem from="1555243701588" duration="227000" />
       <workItem from="1555244106633" duration="74000" />
       <workItem from="1555244181878" duration="9092000" />
-      <workItem from="1555255349604" duration="1245000" />
+      <workItem from="1555255349604" duration="1281000" />
+      <workItem from="1555688110566" duration="497000" />
+      <workItem from="1556092415959" duration="1119000" />
+      <workItem from="1556882018249" duration="5418000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1555244534166</created>
@@ -176,14 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555244534166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="14apr2019">
+      <created>1555257517466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555257517466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21071000" />
+    <option name="totallyTimeSpent" value="28141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970461" />
@@ -210,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="14apr2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="14apr2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Immagini/Tazzina.png">
@@ -247,17 +275,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Live.jpg" />
+    <entry file="file://$PROJECT_DIR$/Immagini/Live1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Immagini/spotyLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Immagini/Live1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Immagini/Live1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Immagini/PausaCaffè_Vicini_MidQual.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Fogli di stile/StylesheetHP.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="365" column="1" selection-start-line="365" selection-start-column="1" selection-end-line="365" selection-end-column="1" />
+        <state relative-caret-position="738">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fogli di stile/Bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#19593#19827#2" expanded="true" />
+            <element signature="e#20631#20784#1" expanded="true" />
+            <element signature="e#20824#21058#1" expanded="true" />
+            <element signature="e#24064#24340#2" expanded="true" />
+            <element signature="e#25172#25325#1" expanded="true" />
+            <element signature="e#25365#25641#1" expanded="true" />
+            <element signature="e#21976#22163#2" expanded="true" />
+            <element signature="e#22392#22528#2" expanded="true" />
+            <element signature="e#22931#23064#2" expanded="true" />
+            <element signature="e#24546#24699#1" expanded="true" />
+            <element signature="e#36692#36922#2" expanded="true" />
+            <element signature="e#37789#38025#2" expanded="true" />
+            <element signature="e#67618#67795#2" expanded="true" />
+            <element signature="e#67841#68018#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fogli di stile/Bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="63" column="65559" selection-start-line="63" selection-start-column="65559" selection-end-line="63" selection-end-column="65559" />
+          <folding>
+            <element signature="e#19593#19827#2" expanded="true" />
+            <element signature="e#20631#20784#1" expanded="true" />
+            <element signature="e#20824#21058#1" expanded="true" />
+            <element signature="e#24064#24340#2" expanded="true" />
+            <element signature="e#25172#25325#1" expanded="true" />
+            <element signature="e#25365#25641#1" expanded="true" />
+            <element signature="e#21976#22163#2" expanded="true" />
+            <element signature="e#22392#22528#2" expanded="true" />
+            <element signature="e#22931#23064#2" expanded="true" />
+            <element signature="e#24546#24699#1" expanded="true" />
+            <element signature="e#36692#36922#2" expanded="true" />
+            <element signature="e#37789#38025#2" expanded="true" />
+            <element signature="e#67618#67795#2" expanded="true" />
+            <element signature="e#67841#68018#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pagine/HomePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>

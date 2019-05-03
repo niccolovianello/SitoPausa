@@ -21,7 +21,7 @@ html, body{
   height: 100%;
 }
 
-a{
+a {
   color: #fff;
   transition-property: color;
   transition-duration: 0.5s;
@@ -334,6 +334,7 @@ content
   margin-left: 20px;
   margin-right: 20px;
 }
+
 
 
 /*---------------------------------

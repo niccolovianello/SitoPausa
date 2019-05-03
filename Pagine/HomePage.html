@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css">
-    <link href="../Fogli%20di%20stile/StylesheetHP.css" rel="stylesheet" type="text/css">
-    <title>Home Page</title>
+  <title>Home Page</title>
+  <meta charset="UTF-8">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../Fogli%20di%20stile/StylesheetHP.css" rel="stylesheet" type="text/css">
+  <link href="../Fogli%20di%20stile/Bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../Javascript.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 <body>
 
@@ -49,7 +62,41 @@
 
   </header>
 
-  <section class="cover">
+  <!--<section class="cover">
+  </section>-->
+
+
+  <section>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!--Indicators-->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!--The slideshow-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Immagini/PausaCaffè_Vicini_MidQual.jpg" alt="Shooting1" width="4000" height="2000">
+        </div>
+        <div class="carousel-item">
+          <img src="../Immagini/Live1.jpg" alt="Chicago" width="4000" height="2000">
+        </div>
+        <div class="carousel-item">
+          <img src="../Immagini/Elerajters1.jpg" alt="Shooting2" width="4000" height="2000">
+        </div>
+      </div>
+
+      <!--Left and right controls-->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
   </section>
 
   <section class="space">
@@ -78,7 +125,7 @@
    <div class="footer_table">
      <table id="tabfooter">
          <tr>
-           <td class="footer_table-sx"><small>&copy; Pausa Caffè 2019. Tutti i diritti riservati.</small></td>
+           <td class="footer_table-sx"><small>&copy Pausa Caffè 2019. Tutti i diritti riservati.</small></td>
            <td class="footer_table-dx"><small><b>CONTATTI</b></small></td>
          </tr>
        <tr>
@@ -116,15 +163,8 @@
   </footer>
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $(".header_icon-bar").click(function(e){
-        $(".header_menu").toggleClass('isOpen');
-        e.preventDefault();
-      });
-    });
-  </script>
+
+
 
 </body>
 </html>
